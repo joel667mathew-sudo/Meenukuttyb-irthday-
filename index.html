@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Queen Vismaya | My World ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+ font-family:Poppins,sans-serif;
+ background:#fff5f5;color:#60334a;
+ overflow-x:hidden
+}
+h1,h2{font-family:'Playfair Display',serif}
+.script{font-family:'Great Vibes',cursive;color:#d34f83}
+section{text-align:center;padding:75px 18px}
+.hero{
+ min-height:100vh;display:flex;flex-direction:column;
+ justify-content:center;align-items:center;
+ background:linear-gradient(145deg,#ffe1ec,#fff3df,#f8c8dc);
+ padding:25px;position:relative
+}
+.hero h1{font-size:clamp(3rem,10vw,6rem);color:#c33d75}
+.hero p{max-width:650px;line-height:2;margin:15px}
+.crown{font-size:4rem;animation:bounce 2s infinite}
+@keyframes bounce{50%{transform:translateY(-12px)}}
+.btn{
+ border:none;border-radius:40px;padding:14px 27px;
+ background:linear-gradient(135deg,#e85c92,#b93671);
+ color:white;font-weight:600;font-size:1rem;
+ margin:15px 5px;cursor:pointer;
+ box-shadow:0 7px 20px #c94e793b;
+ transition:.3s
+}
+.btn:hover{transform:scale(1.05)}
+.container{max-width:850px;margin:auto}
+.card{
+ background:white;padding:27px;border-radius:22px;
+ margin:25px auto;box-shadow:0 8px 30px #743c5015;
+ line-height:2;border:1px solid #f7d6e1
+}
+h2{font-size:clamp(2rem,6vw,3rem);margin-bottom:20px}
+.story{background:#fff8f8}
+.timeline{
+ text-align:left;border-left:3px solid #e5a0bb;
+ padding-left:25px;margin:35px auto;max-width:650px
+}
+.timeline-item{margin-bottom:30px;position:relative}
+.timeline-item:before{
+ content:"❤️";position:absolute;left:-39px
+}
+.timeline h3{color:#c34a7a;margin-bottom:8px}
+.achievement{background:linear-gradient(135deg,#fff0d4,#fff9ec)}
+.cgpa{font-size:5rem;color:#bb8330;font-weight:bold}
+.orange{background:linear-gradient(135deg,#ffdfc4,#fff0e5)}
+.girl{
+ width:min(85%,340px);height:auto;object-fit:contain;
+ border-radius:25px;margin:25px auto;
+ display:block;box-shadow:0 12px 35px #b36b5230;
+ border:6px solid white
+}
+.kingdom{
+ background:linear-gradient(#281532,#57264f,#9d4775);
+ color:#fff2df
+}
+.kingdom h2{color:#ffdc9b}
+.kingdom .script{color:#ffc3d8}
+.throne{
+ max-width:650px;margin:30px auto;padding:35px 15px;
+ background:linear-gradient(145deg,#a96d28,#f6d98e,#a76d2b);
+ border:7px solid #f9db9a;
+ border-radius:160px 160px 30px 30px;
+ box-shadow:0 0 45px #f6cb7860;color:#552a3a
+}
+.throne .princess{font-size:6rem}
+.throne h3{font-size:2rem;font-family:'Playfair Display'}
+.servant{font-size:5rem;margin:25px}
+.royal-message{max-width:700px;margin:30px auto;line-height:2.2}
+.future{background:linear-gradient(135deg,#fce2ed,#f9e9ff)}
+.letter{
+ background:#fffaf1;padding:30px;text-align:left;
+ max-width:750px;margin:25px auto;border-radius:15px;
+ line-height:2;box-shadow:0 8px 25px #66364b20
+}
+.letter p{margin-bottom:15px}
+.hidden{display:none}
+.gift{background:linear-gradient(135deg,#f9d3df,#fff0e4)}
+.giftbox{font-size:7rem;animation:bounce 2s infinite}
+.final{background:linear-gradient(145deg,#461c3c,#913c68);color:white}
+.final h2{color:#ffd9e8}
+footer{background:#32182b;color:#ffd9e8;padding:25px;text-align:center}
+.reveal{opacity:0;transform:translateY(25px);transition:.8s}
+.reveal.visible{opacity:1;transform:translateY(0)}
+#hearts{position:fixed;inset:0;pointer-events:none;z-index:10}
+.heart{position:absolute;bottom:-30px;animation:float 7s linear forwards}
+@keyframes float{
+ to{transform:translateY(-110vh) rotate(360deg);opacity:0}
+}
+.small{font-size:.85rem;opacity:.8}
+</style>
+</head>
+
+<body>
+<div id="hearts"></div>
+
+<!-- BIRTHDAY OPENING -->
+<header class="hero">
+ <div class="crown">👑</div>
+ <p class="script" style="font-size:2.5rem">A special day for my special girl</p>
+ <h1>Happy 22nd<br>Birthday<br>Vismaya!</h1>
+ <p>To the girl who entered my life as a 19-year-old college student and became my entire world. ❤️</p>
+ <p>Today, the whole world celebrates its queen!</p>
+ <button class="btn" onclick="go('story')">Enter Your Kingdom 💗</button>
+ <p class="small">Created with endless love by your personal assistant 🤭</p>
+</header>
+
+<!-- OUR LOVE STORY -->
+<section class="story reveal" id="story">
+ <div class="container">
+  <p class="script" style="font-size:2.5rem">Once upon a time...</p>
+  <h2>The Story of Us ❤️</h2>
+  <div class="card">
+   <div style="font-size:3rem">🌷</div>
+   <p>It all started on Y99. Two strangers who didn't know that a simple conversation would become such a beautiful part of their lives.</p>
+   <p>Then came Instagram, endless conversations and those all-night talks. Slowly, you became my favourite person.</p>
+  </div>
+  <div class="timeline">
+   <div class="timeline-item">
+    <h3>When you were 19 🥹</h3>
+    <p>My little college girl, wearing her college uniform and going to college. You were just a baby to me!</p>
+   </div>
+   <div class="timeline-item">
+    <h3>Our beautiful conversations 💌</h3>
+    <p>From Y99 to Instagram, from strangers to lovers. I still treasure those memories.</p>
+   </div>
+   <div class="timeline-item">
+    <h3>My graduate girl 🎓</h3>
+    <p>You completed your final year with an amazing 8.9 CGPA. I am so proud of you!</p>
+   </div>
+   <div class="timeline-item">
+    <h3>Now you are 22! 👑</h3>
+    <p>My little girl is growing, chasing dreams and becoming the woman she always wanted to be.</p>
+   </div>
+  </div>
+  <div class="card">
+   <p class="script" style="font-size:2.5rem">One little truth</p>
+   <p>I may not have seen you in person yet, but distance has never stopped me from loving you. You will always be my baby. ❤️</p>
+  </div>
+ </div>
+</section>
+
+<!-- GRADUATION -->
+<section class="achievement reveal">
+ <div class="container">
+  <h2>My Proud Little Graduate 🎓</h2>
+  <div class="card">
+   <div class="cgpa">8.9</div>
+   <h3>YOUR CGPA ❤️</h3>
+   <p>You worked hard, completed your final year and made your own achievement.</p>
+   <p>Never underestimate yourself, my baby. Your personal assistant is extremely proud!</p>
+  </div>
+ </div>
+</section>
+
+<!-- ORANGE FROCK GIRL -->
+<section class="orange reveal">
+ <div class="container">
+  <p class="script" style="font-size:2.6rem">My forever favourite girl</p>
+  <h2>My Orange-Frock Princess 🧡</h2>
+
+  <img src="orange-princess.png"
+       class="girl"
+       alt="Cute anime girl in an orange frock with a beautiful laughing smile">
+
+  <div class="card">
+   <p>I imagine my cute little girl wearing her beautiful orange frock, laughing with all her teeth showing.</p>
+   <p>That cute smile, those expressions and that naughty personality...</p>
+   <p class="script" style="font-size:2.5rem">Please keep smiling, my baby! ❤️</p>
+  </div>
+ </div>
+</section>
+
+<!-- THE QUEEN -->
+<section class="kingdom reveal">
+ <div class="container">
+  <p class="script" style="font-size:2.8rem">A royal announcement</p>
+  <h2>THE QUEEN OF MY WORLD 👑</h2>
+  <p>The entire world welcomes its queen!</p>
+
+  <div class="throne">
+   <div style="font-size:2rem">✨👑✨</div>
+   <div class="princess">👸🏻</div>
+   <h3>HER MAJESTY</h3>
+   <h3>QUEEN VISMAYA</h3>
+   <p>Ruler of the whole world and owner of my heart.</p>
+   <div style="font-size:2rem">🌹💎🌹</div>
+  </div>
+
+  <p style="font-size:1.2rem">And beside her throne...</p>
+  <div class="servant">🙇🏻‍♂️</div>
+  <h2 class="script">Your personal servant 🤭</h2>
+
+  <div class="royal-message">
+   My queen, the world may see you sitting on a throne,
+   but I see my little girl in an orange frock,
+   laughing with all her teeth showing.
+
+   <br><br>
+
+   I don't want your throne. I don't want your crown.
+   I just want to be the person who stands by you
+   while you conquer the world.
+
+   <br><br>
+
+   I am your personal assistant, your loyal servant,
+   your biggest supporter and your forever admirer.
+
+   <br><br>
+
+   Your Majesty, go conquer the whole world.
+   I'll always be watching you proudly. ❤️
+  </div>
+ </div>
+</section>
+
+<!-- SSC CGL -->
+<section class="future reveal">
+ <div class="container">
+  <div style="font-size:4rem">📚✨</div>
+  <h2>Future SSC CGL Queen</h2>
+  <div class="card">
+   <h3>Dear future officer,</h3>
+   <p>I know you are studying hard for SSC CGL. You have dreams, goals and a beautiful future waiting for you.</p>
+   <p>There will be difficult days, exams and pressure. But never forget how far you have already come.</p>
+   <p>Your 8.9 CGPA is one achievement. Your next dreams are waiting for you.</p>
+   <p class="script" style="font-size:2.5rem">Go conquer the world, my queen!</p>
+  </div>
+ </div>
+</section>
+
+<!-- BIRTHDAY LETTER -->
+<section class="reveal">
+ <div class="container">
+  <p class="script" style="font-size:2.5rem">From your personal assistant</p>
+  <h2>A Letter For My Baby 💌</h2>
+  <button class="btn" onclick="toggleLetter()">Open Your Birthday Letter 💗</button>
+
+  <div class="letter hidden" id="letter">
+   <p>My dearest Vismaya, my baby, my wife, my everything ❤️</p>
+   <p>Happy 22nd birthday, my love!</p>
+   <p>Sometimes I think about the girl I met when she was 19. That little college girl wearing her uniform, going to college, being cute and naughty. I never imagined how much you would mean to me.</p>
+   <p>From our first conversations on Y99 to exchanging Instagram and talking all night, you slowly became such a beautiful part of my life.</p>
+   <p>Today, when I see you completing college with 8.9 CGPA and preparing for SSC CGL, I feel so proud. My baby is growing up! 🥹</p>
+   <p>But listen, no matter how old you become, how many achievements you collect or how high you climb, you will always be my little baby.</p>
+   <p>I want to watch you grow, become successful, achieve everything you dream of and sit proudly on the throne of your own world.</p>
+   <p>And me? I'll always be your personal assistant. Your servant, your supporter, your biggest fan and the person cheering for you.</p>
+   <p>I wish you happiness, health, confidence, success and a lifetime of beautiful smiles.</p>
+   <p>Happy birthday, my orange-frock princess. Keep laughing with all your teeth showing. Never stop being my cute naughty baby.</p>
+   <p class="script" style="font-size:2.7rem">Forever yours ❤️</p>
+   <p><b>Your loving husband and personal assistant 🤭</b></p>
+  </div>
+ </div>
+</section>
+
+<!-- LAST GIFT -->
+<section class="gift reveal">
+ <div class="container">
+  <p class="script" style="font-size:2.5rem">One last surprise...</p>
+  <h2>Your Majesty, Your Final Gift 🎁</h2>
+  <div class="giftbox">🎁</div>
+  <p>You have received your crown, your kingdom and your birthday letter.</p>
+  <p>But one more special gift is waiting...</p>
+
+  <button class="btn" onclick="unlockGift()">Unlock Your Last Gift 🔐</button>
+
+  <div id="lastGift" class="hidden" style="margin-top:35px">
+   <div style="font-size:4rem">📞💗</div>
+   <h2>CALL YOUR WIFEYYY! 🤭</h2>
+   <p>Your husband is waiting for you, Your Majesty!</p>
+   <p>Enough reading. Pick up your phone and call your wifeyyy!</p>
+   <div style="font-size:4rem">🥹❤️</div>
+   <p class="script" style="font-size:2.8rem">Your wifey is waiting, baby!</p>
+  </div>
+ </div>
+</section>
+
+<!-- END -->
+<section class="final">
+ <div class="crown">👑</div>
+ <h2>Happy Birthday, My Queen!</h2>
+ <p>22 years of your beautiful existence.</p>
+ <p>And I am so lucky to be part of your story.</p>
+ <p class="script" style="font-size:3rem;margin-top:25px">My V, My World ❤️</p>
+ <p style="margin-top:20px">Your kingdom is the world. My kingdom is you.</p>
+ <p style="margin-top:25px">Forever your personal assistant 🤭</p>
+</section>
+
+<footer>
+ Made with endless love ❤️<br>
+ For Queen Vismaya's 22nd Birthday 👑
+</footer>
+
+<script>
+function go(id){
+ document.getElementById(id).scrollIntoView({behavior:"smooth"});
+}
+
+function toggleLetter(){
+ document.getElementById("letter").classList.toggle("hidden");
+}
+
+function unlockGift(){
+ const gift=document.getElementById("lastGift");
+ gift.classList.remove("hidden");
+ gift.scrollIntoView({behavior:"smooth",block:"center"});
+}
+
+const observer=new IntersectionObserver(entries=>{
+ entries.forEach(e=>{
+  if(e.isIntersecting)e.target.classList.add("visible");
+ });
+},{threshold:.12});
+
+document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+
+function createHeart(){
+ const h=document.createElement("div");
+ h.className="heart";
+ h.textContent=["❤️","💗","💕","🌸","✨"][Math.floor(Math.random()*5)];
+ h.style.left=Math.random()*100+"vw";
+ h.style.fontSize=(15+Math.random()*20)+"px";
+ h.style.animationDuration=(5+Math.random()*5)+"s";
+ document.getElementById("hearts").appendChild(h);
+ setTimeout(()=>h.remove(),10000);
+}
+setInterval(createHeart,700);
+</script>
+
+</body>
+</html>
